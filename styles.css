@@ -1,0 +1,365 @@
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+}
+
+body {
+    background-color: #FFF6E9;
+    margin: 0;
+    padding: 0;
+}
+
+#art-canvas
+{
+    margin-top: 20px;
+}
+
+#ada_logo_white {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+
+.Heading {
+    font-style: oblique;
+    font-size: 2.5em;
+    margin-left: 20px;
+    color: #FF7F3E;
+}
+#HomePageHeading {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #FF7F3E;
+}
+
+.navi-bar {
+    background-color: #4335A7;  
+    padding: 0px;
+    margin: 0px; 
+}
+
+/*setting nav bar elements horizontally*/
+.navi-bar ul {
+    margin: 0;
+    padding: 0px 6px;
+    letter-spacing: 2px;
+    font-size: 18px;  
+    display: flex;
+    list-style-type: none;
+}
+
+.navi-bar li {
+    padding: 25px;
+}
+
+.navi-bar a {
+    color: #80C4E9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    padding: 10px 8px;
+}
+.navi-bar a:hover {  
+    background-color: rgb(160, 93, 231);
+    padding: 12px 24px;
+    border-radius: 8px; 
+}
+
+.member {
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 44px;
+}
+
+.teamMembers {
+    margin: 0;
+    display: flex;
+}
+
+.memberImages img {
+    height: 150px;
+    width: 150px;
+    padding: 52px;
+    margin-bottom: -100px;
+    border-radius: 50%;
+}
+
+.member p {
+    color:#80C4E9;
+    font-size: 12px;
+}
+
+#Hseparator {          
+    margin-top: 80px;
+    height: 4px;            
+    background-color: #FF7F3E; 
+}   
+#Hseparator1 {          
+    margin-top: 375px;
+    height: 8px;            
+    background-color: #FF7F3E; 
+}   
+#Hseparator2 {          
+    margin-top: 400px;
+    height: 8px;            
+    background-color: #FF7F3E; 
+}   
+
+.contactsep {   
+    margin-top: 50px;       
+    height: 300px;            
+    background-color: #000000;
+}   
+
+#contactsep_hoc {
+    margin-top: 400px;
+    height: 300px;
+    background-color: #000000;
+
+}
+
+#contactsep_wp {
+    margin-top: 0px;
+    height: 300px;
+    background-color: #000000;
+
+}
+
+#contactsep_tm {
+    margin-top: 0px;
+    height: 300px;
+    background-color: #000000;
+
+}
+
+
+#Vseparator {
+    margin-right: 8px;
+    height: 150px;
+    width: 2px;
+    background-color: #80C4E9;
+}
+
+#membersInfo h2 {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+#membersInfo li {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+#WebsiteNav h2 {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#WebsiteNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#WebsiteNav li {
+    display: inline-block;
+    font-size: 22px;
+    color: #4335A7;
+}
+
+#you_are_here {
+    margin-left: 40px;
+    margin-top: -10px;
+    color: #4b3eff;
+}
+
+.WebNavP {
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#teamlogo {
+    width: 330px;
+    height: 315px;
+    border-radius: 155px;
+    margin-left: 1150px;
+    margin-top: -100px;
+}
+
+#about_us {
+    color: #4335A7;
+    font-style: oblique;
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.Member_Info h1{
+    margin-left: 40px;
+    color:#80C4E9
+}
+
+
+#personal_info_space {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 60px;
+    font-size: 1.25em;
+    color:#4335A7
+}
+
+#hocpic {
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+#special_hsep{
+    margin-top: -5px;
+    height: 4px;            
+    background-color: #FF7F3E; 
+}
+
+#hrofcode_heading {
+    text-align: center;
+    float: right;
+    font-style: oblique;
+    font-size: 2.5em;
+    margin-right: 325px;
+    color:#FF7F3E
+}
+
+#hoc_introduction {
+    float: right;
+    margin-top: -175px;
+    margin-right: 180px;
+    font-size: 20px;
+}
+
+#hoc_info {
+    float: left;
+    margin-left: 50px;
+    margin-top:100px;
+    font-size: 26px;
+}
+
+#hoc_img {
+    
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.hoc_images {
+    display: flex;
+    flex-direction: column; 
+    float: right;
+    gap: 50px;
+}
+
+.hour_of_code_p {
+    color:#4335A7
+}
+
+.ContactUS {
+    padding: 20px;
+    color: aliceblue;
+}
+
+.ContactUS p{
+    font-size: 20px;
+}
+
+.ContactUS img{
+    margin: 0px;
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+#jumpingImage {
+    display: none; 
+    width: 200px;
+    height: 120px;
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 1s ease; 
+    margin-left: 660px; 
+}
+
+.fade {
+    opacity: 0; 
+}
+
+#imageText {
+    display: none; 
+    margin-top: 10px; 
+    font-size: 18px;
+    color: #ae485e; 
+}
+
+.web-project_figure {
+    height: 220px;
+    width: 800px;
+    border-radius: 40px;
+    background-color: #336178;
+    margin-left: 30px;
+}
+
+.web-project_info p{
+    color:#80C4E9;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.web-project_info h2{
+    font-style: oblique;
+    font-size: 2.0em;
+    margin-left: 40px;
+    color: #4cbaf5;
+}
+
+.web-project_figure1 {
+    height: 350px;
+    width: 650px;
+    border-radius: 40px;
+    background-color: #336178;
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.web-project_links h1 {
+    color: #4cbaf5;
+    text-align: center;
+}
+
+.web-project_links a {
+    color: #80C4E9;
+   
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.web-project_links p {
+    color: #4cbaf5;
+    font-size: 20px;
+    margin-left: 10px;
+}
